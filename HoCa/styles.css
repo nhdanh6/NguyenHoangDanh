@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3000px;
+    height: 2000px;
+}
+
+.bg1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./Image/4162773.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+.bg2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./Image/sea-location-cartoon-underwater-background-vector-43797624.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+
+.button-1{
+    position: absolute;
+    padding: 20px;
+    font-size: 70px;
+    right: 15px;
+    width: 520px;
+    height: 150px;
+    z-index: 2;
+
+    top: 15px;
+    border: 0;
+    background-color: white;
+    outline: 12px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+}
+.button-1:hover {
+    border: 8px solid darkgray;
+}
+.button-1:active {
+    background-color: darkgrey;
+    transform: translateY(3px);
+}
+
+.button-2{
+    position: absolute;
+    padding: 20px;
+    font-size: 70px;
+    right: 570px;
+    width: 520px;
+    height: 150px;
+    z-index: 2;
+
+    top: 15px;
+    border: 0;
+    background-color: white;
+    outline: 12px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+}
+.button-2:hover {
+    border: 8px solid darkgray;
+}
+.button-2:active {
+    background-color: darkgrey;
+    transform: translateY(3px);
+}
+
+.button-3{
+    position: absolute;
+    padding: 20px;
+    font-size: 70px;
+    right: 1123px;
+    width: 520px;
+    height: 150px;
+    z-index: 2;
+
+    top: 15px;
+    border: 0;
+    background-color: white;
+    outline: 12px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+}
+.button-3:hover {
+    border: 8px solid darkgray;
+}
+.button-3:active {
+    background-color: darkgrey;
+    transform: translateY(3px);
+}
+
+.fish{
+    position: absolute;
+    z-index: 10;
+}
+
+
+.fish-1{
+    background: url(./Image/shark.png);
+    background-size: contain;
+    width: 450px;
+    height: 450px;
+    top: 25%;
+    left: 35px;
+    transform: rotateY(180deg);
+    animation: fish1 20s linear infinite;
+}
+@keyframes fish1{
+    0%{
+        left: 35px;
+        top: 25%;
+        transform: rotateY(180deg);
+    }
+    50%{
+        left: calc(100% - 530px);
+        top: 25%;
+        transform: rotateY(180deg);
+    }
+    50.01%{
+        transform: rotateY(0deg);
+        top: 25%;
+    }
+    100%{
+        left: 35px;
+        top: 25%;
+        transform: rotateY(0deg);
+    }
+}
+
+
+.fish-2{
+    background: url(./Image/caloi.gif) center no-repeat;
+    background-size: contain;
+    width: 430px;
+    height: 430px;
+    top: 50%;
+    left: 40px;
+    transform: rotateY(180deg);
+    animation: fish2 12s linear infinite;
+}
+@keyframes fish2{
+    0%{
+        left: 40px;
+        top: 50%;
+        transform: rotateY(180deg);
+    }
+    50%{
+        left: calc(100% - 500px);
+        top: 50%;
+        transform: rotateY(180deg);
+    }
+    50.01%{
+        transform: rotateY(0deg);
+        top: 50%;
+    }
+    100%{
+        left: 40px;
+        top: 50%;
+        transform: rotateY(0deg);
+    }
+}
+
+.fish-3{
+    background: url(./Image/poke-cute.gif) center no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    top: 75%;
+    left: 990px;
+    transform: rotateY(180deg);
+    animation: fish3 8s linear infinite;
+}
+@keyframes fish3{
+    0%{
+        left: 990px;
+        top: 75%;
+        transform: rotateY(180deg);
+    }
+    50%{
+        left: calc(100% - 1280px);
+        top: 75%;
+        transform: rotateY(180deg);
+    }
+    50.01%{
+        transform: rotateY(0deg);
+        top: 75%;
+    }
+    100%{
+        left: 990px;
+        top: 75%;
+        transform: rotateY(0deg);
+    }
+}
+
+.fish-4{
+    background: url(./Image/cuaxau.gif) center no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    top: 92%;
+    left: 950px;
+    transform: rotateY(180deg);
+    animation: fish4 4s linear infinite;
+}
+@keyframes fish4{
+    0%{
+        left: 950px;
+        top: 92%;
+        transform: rotateY(180deg);
+    }
+    50%{
+        left: calc(100% - 1900px);
+        top: 92%;
+        transform: rotateY(180deg);
+    }
+    50.01%{
+        transform: rotateY(0deg);
+        top: 92%;
+    }
+    100%{
+        left: 950px;
+        top: 92%;
+        transform: rotateY(0deg);
+    }
+}
+
+.fish-5{
+    background: url(./Image/cua.gif) center no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    top: 83%;
+    left: 2000px;
+    transform: rotateY(180deg);
+    animation: fish5 4s linear infinite;
+}
+@keyframes fish5{
+    0%{
+        left: 2000px;
+        top: 83%;
+        transform: rotateY(180deg);
+    }
+    50%{
+        left: calc(100% - 850px);
+        top: 83%;
+        transform: rotateY(180deg);
+    }
+    50.01%{
+        transform: rotateY(0deg);
+        top: 83%;
+    }
+    100%{
+        left: 2000px;
+        top: 83%;
+        transform: rotateY(0deg);
+    }
+}
+
+.fish-6{
+    background: url(./Image/fish-2638627_1280.png) center no-repeat;
+    background-size: contain;
+    width: 330px;
+    height: 330px;
+    top: 5%;
+    left: 50px;
+    transform: rotateY(180deg);
+    animation: fish6 9s linear infinite;
+}
+@keyframes fish6{
+    0%{
+        left: 50px;
+        top: 5%;
+        transform: rotateY(180deg);
+    }
+    50%{
+        left: calc(100% - 400px);
+        top: 5%;
+        transform: rotateY(180deg);
+    }
+    50.01%{
+        transform: rotateY(0deg);
+        top: 5%;
+    }
+    100%{
+        left: 50px;
+        top: 5%;
+        transform: rotateY(0deg);
+    }
+}
+
+
